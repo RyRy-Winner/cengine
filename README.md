@@ -28,7 +28,7 @@ A fast bitboard-based chess engine with GPU-accelerated legal move generation (H
 NVIDIA users: Install the NVIDIA CUDA Toolkit as well, then build with `-DHIP_PLATFORM=nvidia`.
 
 ## Features
-- GPU-accelerated legal move generation using 12 uint64_t bitboards + extra state
+- GPU-accelerated legal move generation
 - Supports castling, en passant, 50-move rule, 3-fold repetition
 - Highly portable HIP code (AMD native + NVIDIA compatible)
 
